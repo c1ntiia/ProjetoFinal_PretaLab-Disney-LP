@@ -22,6 +22,10 @@ function calcularMedia() {
   // evite mexer no código acima!
 const media = (nota1 + note2 + note3 + note4) / 4;
   
+  // evite mexer na linha de código abaixo!
+  document.getElementById("situacaoAluno").innerHTML = mensagem;
+}
+
   if(media==0){
       console.log ("Infelizmente você zerou a prova :c");
 
@@ -44,6 +48,3 @@ const media = (nota1 + note2 + note3 + note4) / 4;
      console.log ("As notas informadas estão erradas");
 }   
   }
-  // evite mexer na linha de código abaixo!
-  document.getElementById("situacaoAluno").innerHTML = mensagem;
-}
