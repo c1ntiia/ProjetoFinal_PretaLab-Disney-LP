@@ -29,10 +29,10 @@ const media = (nota1 + note2 + note3 + note4) / 4;
     console.log ("Caramba, deu ruim, você obteve media" + media + "! Estude mais e tente novamente");
 } 
   else(media>=3.1 && media<=5.9){
-    console.log ("Você obteve media" + media +"! Falta pouco para a média.);
+    console.log ("Você obteve media" + media +"! Falta pouco para a média.");
 } 
   else(media=6 && media==7){
-    console.log ("Você está na média com "+ media);
+    console.log ("Você está na média com " + media);
 } 
   else(media>=7.1 && media<=9.9){
     console.log ("Notão! Sua média é " + media + "!");
