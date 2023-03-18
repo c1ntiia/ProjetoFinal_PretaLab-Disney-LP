@@ -20,27 +20,27 @@ function calcularMedia() {
   let mensagem = ""; 
 
   // evite mexer no código acima!
-const media = (nota1 + note2 + note3 + note4) / 4;
+const calcularMedia = (nota1 + note2 + note3 + note4) / 4;
   
-    if(media==0){
+    if(calcularMedia==0){
       let mensagem = "Infelizmente você zerou a prova :c";
 
-    else(media>=0.1 && media<=3){
-      let mensagem = "Caramba, deu ruim, você obteve media" + media + "! Estude mais e tente novamente";
+    else(calcularMedia>=0.1 && calcularMedia<=3){
+      let mensagem = "Caramba, deu ruim, você obteve media" + calcularMedia + "! Estude mais e tente novamente";
 } 
-    else(media>=3.1 && media<=5.9){
-     let mensagem = "Você obteve media" + media +"! Falta pouco para a média.";
+    else(calcularMedia>=3.1 && calcularMedia<=5.9){
+     let mensagem = "Você obteve media" + calcularMedia +"! Falta pouco para a média.";
 } 
-    else(media=6 && media==7){
-     let mensagem = "Você está na média com " + media;
+    else(calcularMedia=6 && calcularMedia==7){
+     let mensagem = "Você está na média com " + calcularMedia;
 } 
-    else(media>=7.1 && media<=9.9){
-     let mensagem = "Notão! Sua média é " + media + "!";
+    else(calcularMedia>=7.1 && calcularMedia<=9.9){
+     let mensagem = "Notão! Sua média é " + calcularMedia + "!";
 } 
-    else(media==10){
+    else(calcularMedia==10){
      let mensagem = "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média";
 } 
-    else(media>10){
+    else(calcularMedia>10){
      let mensagem = "As notas informadas estão erradas";
 }   
   }
