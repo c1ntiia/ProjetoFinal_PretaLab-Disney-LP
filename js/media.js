@@ -22,7 +22,7 @@ function calcularMedia() {
   // evite mexer no código acima!
  
   const calcularMedia = (nota1 + note2 + note3 + note4) / 4;
-  
+ <body>  
     if(calcularMedia==0){
       let mensagem = "Infelizmente você zerou a prova :c";      
 }    else if(calcularMedia>0.1 && calcularMedia<3){
@@ -47,5 +47,5 @@ function calcularMedia() {
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
 }
-
+<body>
 
