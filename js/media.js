@@ -40,7 +40,9 @@ function calcularMedia() {
     else if(calcularMedia==10){
       alert ("Hoje é seu aniversário? Pq você ta de parabéns! 10 de média");
     } 
-  
+    else{
+     alert ("As notas informadas estão erradas");
+    }   
    
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
