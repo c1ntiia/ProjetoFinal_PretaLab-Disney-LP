@@ -43,7 +43,6 @@ const calcularMedia = (nota1 + note2 + note3 + note4) / 4;
     else(calcularMedia>10){
      alert ("As notas informadas estão erradas");
 }   
-  }
   
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
